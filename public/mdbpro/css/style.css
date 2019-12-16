@@ -1,0 +1,81 @@
+/* Only for snippet */
+.double-nav .breadcrumb-dn {
+    color: #000000;
+}
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+    bottom: .5em;
+}
+
+.breadcrumb-dn p {
+    color: black;
+}
+
+.navbar .nav-item .nav-link {
+    color: black;
+}
+
+.double-nav .breadcrumb-dn {
+    color: #fff;
+}
+
+.side-nav.wide.slim .sn-ad-avatar-wrapper a span {
+    display: none;
+}
+
+.table-responsive {
+    display: table;
+}
+
+/* Warna Icon Navbar */
+@media (max-width: 1440px) {
+
+    .grey-skin .navbar.double-nav a {
+        color: black;
+    }
+
+    
+
+}
+
+/* Main */
+@media (min-width: 1441px) {
+
+    .fixed-sn .page-footer .container-fluid,
+    .fixed-sn main {
+        margin-left: -13%;
+        margin-right: 1%;
+    }
+}
+
+header,
+main,
+footer {
+    padding-left: 240px;
+}
+
+@media only screen and (max-width : 1440px) {
+
+    header,
+    main,
+    footer {
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 657px) {
+
+.table  a{
+  font-size: 0px;
+}  
+
+}
